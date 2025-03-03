@@ -389,6 +389,8 @@ public class mobileOnlineAdmission extends Basepage {
 	  
 	  WebElement upload=wait.until(ExpectedConditions.elementToBeClickable(AppiumBy.xpath("//android.widget.Button[@resource-id='cropBtn']")));
 		upload.click();	
+		
+		Thread.sleep(3000);
 		switchToWebView();
 		
 	}
