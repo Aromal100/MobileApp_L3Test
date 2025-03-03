@@ -176,7 +176,7 @@ public class mobileOnlineAdmission extends Basepage {
 	  img.click();
 	
 		WebElement upload=wait.until(ExpectedConditions.elementToBeClickable(AppiumBy.xpath("//android.widget.Button[@resource-id=\"cropBtn\"]")));
-		upload.click();		
+		upload.click();	
 		switchToWebView();
 
 	}
@@ -386,9 +386,11 @@ public class mobileOnlineAdmission extends Basepage {
 	   WebElement img=wait.until(ExpectedConditions.elementToBeClickable(AppiumBy.xpath("(//android.widget.ImageView[@resource-id='com.android.documentsui:id/icon_thumb'])[3]")));
 	  img.click();
 	
-		WebElement upload=wait.until(ExpectedConditions.elementToBeClickable(AppiumBy.xpath("//android.widget.Button[@resource-id=\"cropBtn\"]")));
-		upload.click();		
+	  
+	  WebElement upload=wait.until(ExpectedConditions.elementToBeClickable(AppiumBy.xpath("//android.widget.Button[@resource-id='cropBtn']")));
+		upload.click();	
 		switchToWebView();
+		
 	}
 	
 	@FindBy(id="parentsex")
