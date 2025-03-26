@@ -462,5 +462,4 @@ public class mobileOnlineAdmission extends Basepage {
 	}
 	
 	
-
 }
